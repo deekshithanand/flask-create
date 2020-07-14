@@ -44,5 +44,8 @@ setup(
     version=version,
     entry_points = {
         'console_scripts': ['flask-create=flask_create.create:create'],
-    }
+    },
+    include_package_data=True,
+    
 )
+
