@@ -46,6 +46,21 @@ To int db run this from outside src(i.e., root project folder):
 
 ##### Note : - The default config is provided for dev. Production config can be modified by user in config.py
 
+
+# Build Instructions
+
+Build a python package:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+
+pip install wheel
+
+python setup.py bdist_wheel
+# Produces a .whl file in dist/
+```
+
 # Note for Contributing
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
