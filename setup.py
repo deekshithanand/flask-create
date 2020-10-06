@@ -35,11 +35,6 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/deekshithanand/flask-create.git",
     packages=find_packages(),
-    package_data={
-        "flask_create": [
-            "flask_template/**/*.py"
-        ],
-    },
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
